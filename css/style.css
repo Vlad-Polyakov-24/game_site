@@ -1,5 +1,5 @@
-/*ОБНУЛЕНИЕ*/
 
+/*ОБНУЛЕНИЕ*/
 	*{
 		padding: 0;
 		margin: 0;
@@ -36,10 +36,27 @@
 	img{vertical-align: top;}
 
 	h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-/*==================*/
+/*===========*/
 
 /*ОБЩИЕ СТИЛИ*/
+	/*IBG*/
+		.ibg {
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			position: relative;
+		}
 
+		.ibg img {
+			width: 0;
+			height: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			visibility: hidden;
+		}
+	/*===========*/
 	.wrapper {
 		overflow: hidden;
 		min-height: 100%;
@@ -63,13 +80,25 @@
 	}
 	.ttl-brdr {
 		display: inline-block;
-		height: 75px;
+		/*height: 75px;*/
 		border-bottom: 1px solid #c5c5c5;
+		padding: 0 0 5px 0;
+	}
+	.no-pad {
+		padding: 0;
+	}
+	.section__title {
+		margin: 0 0 30px 0;
+	}
+	.section__title-item {
+		font-size: 40px;
+		font-family: "MyriadPro-Semibold", sans-serif;
+		color: #000;
+		margin: 0 0 0 80px;
 	}
 /*===========*/
 
 /*SUBLIME*/
-
 	.sublime {
 		background: url(../img/sublime/bg.png) 50%/cover no-repeat;
 	}
@@ -144,13 +173,12 @@
 /*===========*/
 
 /*ABOUT*/
-
 	.about {
 
 	}
 	.about__body {
 		background-color: #fff;
-		padding: 40px 10px;
+		padding: 40px 10px 60px;
 	}
 	.about__row {
 		display: flex;
@@ -181,7 +209,16 @@
 		font-size: 80px;
 		font-family: "MyriadPro-Semibold", sans-serif;
 		color: #000;
+		/*position: relative;*/
 	}
+	/*.about__item-head--subtitle:after {
+		position: absolute;
+		top: 97%;
+		left: 150px;
+		width: 130px;
+		border-top: 2px solid #ffc600;
+		content:"";
+	}*/
 	.about__item-head--text {
 		font-size: 16px;
 		font-family: "MyriadPro-Regular", sans-serif;
@@ -236,10 +273,108 @@
 	}
 /*===========*/
 
+/*FEATURED*/
+	.featured {}
+	.featured__body {
+		background-color: #fff;
+		padding: 0 0 50px 0px;
+	}
+	.tabs {}
+	.tabs__items {
+		margin: 0 0 25px 80px;
+	}
+	.tabs__item {
+		font-size: 15px;
+		font-family: "MyriadPro-Semibold", sans-serif;
+		color: #101010;
+		position: relative;
+		margin: 0 10px 0 0;
+		display: inline-block;
+	}
+	.tabs__item:first-child {
+		margin: 0 35px 0 0;
+	}
+	.tabs__item:last-child {
+		margin: 0;
+	}
+	.tabs__item:hover:after {
+		position: absolute;
+		top: 130%;
+		left: 25%;
+		width: 50%;
+		border-top: 2px solid #ffc600;
+		content:"";
+	}
+	.tabs__item-active:after {
+		position: absolute;
+		top: 130%;
+		left: 25%;
+		width: 50%;
+		border-top: 2px solid #ffc600;
+		content:"";
+	}
+	.tabs__body {}
+	.tabs__block {
+		display: none;
+	}
+	.tabs__block.tabs__block-active {
+		display: block;
+	}
+	.tabs__row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.tabs__column {
+		flex: 1 1 25%;
+		min-width: 300px;
+		max-width: 300px;
+		min-height: 270px;
+		position: relative;
+	}
+	.tabs__column img{
+		object-fit: cover;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.tabs__overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgba(22, 22, 22, 0.5);
+		opacity: 0;
+		transition: all 0.3s ease 0s;
+	}
+	.tabs__overlay:hover {
+		opacity: 1;
+	}
+	.tabs__overlay p {
+		font-size: 20px;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: "MyriadPro-Semibold", sans-serif;
+	}
+/*===========*/
+
 @media (max-width: 767px) {
 
-/*SUBLIME*/
+/*ОБЩИЕ СТИЛИ*/
+	.section__title-item {
+		margin: 0;
+		text-align: center;
+	}
+/*===========*/
 
+/*SUBLIME*/
 	.sublime__head__item {
 	    padding: 30px 0 0 20px;
 	}
@@ -271,9 +406,8 @@
 /*===========*/
 
 /*ABOUT*/
-
 	.about__body {
-		padding: 20px 10px;
+		padding: 50px 10px;
 	}
 	.about__row-head {
 		flex-direction: column;
@@ -296,6 +430,29 @@
 	}
 /*===========*/
 
+/*FEATURED*/
+	.featured__body {
+		padding: 0px;
+	}
+	.tabs__items {
+		margin: 0 0 25px 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.tabs__item {
+		margin: 15px 0px 0 0;
+	}
+	.tabs__item:first-child {
+		margin: 0;
+	}
+	.tabs__item:last-child {
+		margin: 15px 0 0 0;
+	}
+	.tabs__item-active:after {
+		top: 110%;
+	}
+/*===========*/
 }
 
 @media (max-width: 599px) {
@@ -344,13 +501,19 @@
 
 /*Общие стили*/
 	.ttl-brdr {
-	    height: 68px;
+	    height: 100%;
+	}
+	.section__title-item {
+		font-size: 35px;
 	}
 /*===========*/
 
 /*ABOUT*/
 	.about__item-head--subtitle {
 		font-size: 70px;
+	}
+	.about__body {
+		padding: 10px 10px 30px;
 	}
 /*===========*/
 
