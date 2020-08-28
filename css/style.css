@@ -1,147 +1,240 @@
-/*Обнуление*/
+/*ОБНУЛЕНИЕ*/
 
-*{
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
-*,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
+	*{
+		padding: 0;
+		margin: 0;
+		border: 0;
+	}
+	*,*:before,*:after{
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	:focus,:active{outline: none;}
+	a:focus,a:active{outline: none;}
 
-nav,footer,header,aside{display: block;}
+	nav,footer,header,aside{display: block;}
 
-html,body{
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-}
-input,button,textarea{font-family:inherit;}
+	html,body{
+		height: 100%;
+		width: 100%;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 14px;
+		-ms-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+	}
+	input,button,textarea{font-family:inherit;}
 
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
+	input::-ms-clear{display: none;}
+	button{cursor: pointer;}
+	button::-moz-focus-inner {padding:0;border:0;}
+	a, a:visited{text-decoration: none;}
+	a:hover{text-decoration: none;}
+	ul li{list-style: none;}
+	img{vertical-align: top;}
 
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-
+	h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*==================*/
 
-/*Общие стили*/
+/*ОБЩИЕ СТИЛИ*/
 
-.wrapper {
-	overflow: hidden;
-	min-height: 100%;
-}
-.content {
+	.wrapper {
+		overflow: hidden;
+		min-height: 100%;
+		background: #161616;
+	}
+	.content {
 
-}
-.container {
-	max-width: 1220px;
-	padding: 0 10px;
-	margin: 0 auto;
-}
-
+	}
+	.container {
+		max-width: 1220px;
+		padding: 0 10px;
+		margin: 0 auto;
+	}
+	.yellow {
+		color: #ffc600;
+		display: inline-block;
+	}
+	.big-let {
+		font-size: 50px;
+		display: inline-block;
+	}
+	.ttl-brdr {
+		display: inline-block;
+		height: 75px;
+		border-bottom: 1px solid #c5c5c5;
+	}
 /*===========*/
 
 /*SUBLIME*/
 
-.sublime {
-	background: url(../img/sublime/bg.png) 50%/cover no-repeat;
-}
-.sublime__row {
-	margin: 0 0 100px 0;
-	/*padding: 150px 0 0 45px;*/
-}
-.sublime__row:last-child {
-	margin: 0;
-	padding: 0;
-}
-.bg {
-	background: url(../img/sublime/bg_2.png) 50%/cover no-repeat;
-	height: 650px;
-}
-.sublime__head__item {
-	padding: 80px 0 0 45px;/**/
-}
-.sublime__head__item-title {
-	font-size: 150px;
-	font-family: "MyriadPro-Bold", sans-serif;
-	color: #fff;
-	text-align: left;
-	letter-spacing: -2px;
-}
-.sublime__head__item-title span {
-	color: #ffc600;
-}
-.sublime__head__item-subtitle {
-	font-size: 18px;
-	font-family: "MyriadPro-Regular", sans-serif;
-	color: #fff;
-	line-height: 22px;
-	text-align: left;
-}
-.sublime__head__item-subtitle span {
-	color: #ffc600;
-}
-.sublime__column {
-	margin: 0 0 60px 0;
-}
-.sublime__column:last-child {
-	margin: 0;
-}
-.sublime__bottom__title {
-	font-size: 60px;
-	font-family: "MyriadPro-Bold", sans-serif;
-	color: #fff;
-	font-weight: bold;
-	padding: 70px 0 0 45px;
-}
-.sublime__bottom__title span {
-	color: #ffc600;
-}
-.header__menu {
-	padding: 0 0 0 45px;
-}
-.header__menu-list {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}
-.header__menu-list li {
-	margin: 0 35px 0 0;
-}
-.header__menu-list li:last-child {
-	margin: 0;
-}
-.header__menu-link {
-	font-size: 20px;
-	font-family: "MyriadPro-Regular", sans-serif;
-	color: #ffc600;
-	padding: 0 0 5px 0;
-	border-bottom: 2px solid transparent;
-	transition: all 0.3s ease 0s;
-}
-.header__menu-link:hover {
-	color: #fff;
-	border-bottom: 2px solid #ffc600;
-}
-
+	.sublime {
+		background: url(../img/sublime/bg.png) 50%/cover no-repeat;
+	}
+	.sublime__row {
+		margin: 0 0 100px 0;
+		/*padding: 150px 0 0 45px;*/
+	}
+	.sublime__row:last-child {
+		margin: 0;
+		padding: 0;
+	}
+	.bg {
+		background: url(../img/sublime/bg_2.png) 50%/cover no-repeat;
+		height: 650px;
+	}
+	.sublime__head__item {
+		padding: 80px 0 0 45px;/**/
+	}
+	.sublime__head__item-title {
+		font-size: 150px;
+		font-family: "MyriadPro-Bold", sans-serif;
+		color: #fff;
+		text-align: left;
+		letter-spacing: -2px;
+	}
+	.sublime__head__item-subtitle {
+		font-size: 18px;
+		font-family: "MyriadPro-Regular", sans-serif;
+		color: #fff;
+		line-height: 22px;
+		text-align: left;
+	}
+	.sublime__column {
+		margin: 0 0 60px 0;
+	}
+	.sublime__column:last-child {
+		margin: 0;
+	}
+	.sublime__bottom__title {
+		font-size: 60px;
+		font-family: "MyriadPro-Bold", sans-serif;
+		color: #fff;
+		font-weight: bold;
+		padding: 70px 0 0 45px;
+	}
+	.header__menu {
+		padding: 0 0 0 45px;
+	}
+	.header__menu-list {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.header__menu-list li {
+		margin: 0 35px 0 0;
+	}
+	.header__menu-list li:last-child {
+		margin: 0;
+	}
+	.header__menu-link {
+		font-size: 20px;
+		font-family: "MyriadPro-Regular", sans-serif;
+		color: #ffc600;
+		padding: 0 0 5px 0;
+		border-bottom: 2px solid transparent;
+		transition: all 0.3s ease 0s;
+	}
+	.header__menu-link:hover {
+		color: #fff;
+		border-bottom: 2px solid #ffc600;
+	}
 /*===========*/
 
+/*ABOUT*/
 
+	.about {
+
+	}
+	.about__body {
+		background-color: #fff;
+		padding: 40px 10px;
+	}
+	.about__row {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.about__row-head {
+		margin: 0 0 70px 0;
+	}
+	.about__row-head:last-child {
+		margin: 0;
+	}
+	.about__column-head {
+		flex: 0 1 50%;
+		margin: 0 0 0 100px;
+	}
+	.about__column-head:last-child {
+		margin: 0;
+	}
+	.about__item-head {}
+	.about__item-head--title {
+		font-size: 30px;
+		font-family: "MyriadPro-Semibold", sans-serif;
+		color: #717171;
+		margin: 0 0 -15px 0;
+	}
+	.about__item-head--subtitle {
+		font-size: 80px;
+		font-family: "MyriadPro-Semibold", sans-serif;
+		color: #000;
+	}
+	.about__item-head--text {
+		font-size: 16px;
+		font-family: "MyriadPro-Regular", sans-serif;
+		color: #595959;
+		line-height: 15px;
+	}
+	.italic {
+		color: #000;
+		font-style: italic;
+		margin: 0 0 20px 0;
+	}
+	.about__row-bot {
+		max-width: 950px;
+    	margin: 0 auto;
+    	align-items: flex-start;
+	}
+	.about__column-bot {
+		margin: 0 20px 0 0;
+		flex: 0 1 30%;
+		min-width: 200px;
+	}
+	.about__item-bot {
+		
+	}
+	.about__column-bot:last-child {
+		margin: 0;
+	}
+	.about__item-bot--img {
+		text-align: center;
+		margin: 0 0 15px 0;
+	}
+	.about__item-bot--title {
+		text-align: center;
+		font-size: 18px;
+		font-family: "MyriadPro-Regular", sans-serif;
+		color: #000;
+		font-weight: 600;
+		margin: 0 0 15px 0;
+	}
+	.about__item-bot--text {
+		font-size: 14px;
+		font-family: "MyriadPro-It", sans-serif;
+		color: #000;
+		line-height: 15px;
+		text-align: center;
+	}
+	.about__item-bot--text p{
+		margin: 0 0 15px 0;
+	}
+	.about__item-bot--text p:last-child{
+		margin: 0;
+	}
+/*===========*/
 
 @media (max-width: 767px) {
 
@@ -175,8 +268,32 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	    background: rgba(0,0,0,0.3);
 	    position: absolute;
 	}
-	
+/*===========*/
 
+/*ABOUT*/
+
+	.about__body {
+		padding: 20px 10px;
+	}
+	.about__row-head {
+		flex-direction: column;
+		margin: 0 0 30px 0;
+	}
+	.about__item-head {
+		max-width: 600px;
+	}
+	.about__column-head {
+		margin: 0 0 20px 0px;
+	}
+	.about__row-bot {
+		flex-direction: column;
+		align-items: center;
+	}
+	.about__column-bot {
+		margin: 0 0px 20px 0;
+		min-width: 200px;
+		max-width: 400px;
+	}
 /*===========*/
 
 }
@@ -200,7 +317,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	.header__menu {
 	    padding: 0 0 0 5px;
 	}
-
 /*===========*/
 
 }
@@ -208,7 +324,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 @media (max-width: 479px) {
 
 /*SUBLIME*/
-
 	.sublime__head__item-title {
 		font-size: 80px;
 	}
@@ -221,7 +336,22 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	.sublime__bottom__title {
 	    max-width: 200px;
 	}
+/*===========*/
 
+}
+
+@media (max-width: 400px) {
+
+/*Общие стили*/
+	.ttl-brdr {
+	    height: 68px;
+	}
+/*===========*/
+
+/*ABOUT*/
+	.about__item-head--subtitle {
+		font-size: 70px;
+	}
 /*===========*/
 
 }
