@@ -91,6 +91,7 @@
 		margin: 0 0 30px 0;
 		position: relative;
 		z-index: 2;
+		min-width: 260px;
 	}
 	.section__title-item {
 		font-size: 40px;
@@ -228,7 +229,7 @@
 		font-size: 16px;
 		font-family: "MyriadPro-Regular", sans-serif;
 		color: #595959;
-		line-height: 15px;
+		line-height: 20px;
 	}
 	.italic {
 		color: #000;
@@ -267,7 +268,7 @@
 		font-size: 14px;
 		font-family: "MyriadPro-It", sans-serif;
 		color: #000;
-		line-height: 15px;
+		line-height: 20px;
 		text-align: center;
 	}
 	.about__item-bot--text p{
@@ -384,6 +385,7 @@
 		margin: 0 0 20px 0;
 		color: #000;
 		font-family: "MyriadPro-It", sans-serif;
+		line-height: 20px;
 	}
 	.strategic__text-bot {
 		line-height: 20px;
@@ -424,11 +426,13 @@
 		font-family: "MyriadPro-It", sans-serif;
 		color: #000;
 		margin: 0 0 15px 0;
+		line-height: 20px;
 	}
 	.strategic__column__body-text--bot {
 		font-size: 16px;
 		font-family: "MyriadPro-Regular", sans-serif;
 		color: #000;
+		line-height: 20px;
 	}
 /*===========*/
 
@@ -437,7 +441,7 @@
 	.services__body {
 		background: url(../img/services/bg_n.png) 50%/cover no-repeat;
 		position: relative;
-		padding: 50px 0 60px 0;
+		padding: 50px 0 40px 0;
 
 	}
 	.services__body-overlay {
@@ -476,13 +480,69 @@
 		font-size: 19px;
 		font-family: "MyriadPro-Regular", sans-serif;
 		color: #fff;
-		margin: 0 0 10px 0;
+		margin: 0 0 30px 0;
 	}
 	.services__column-item--text {
 		font-size: 15px;
 		font-family: "MyriadPro-Regular", sans-serif;
 		color: #fff;
-		line-height: 15px;
+		line-height: 20px;
+	}
+/*===========*/
+
+/*TEAM*/
+	.team {}
+	.team__title {
+		margin: 0;
+	}
+	.team__body {
+		background-color: #fff;
+		padding: 50px 0;
+	}
+	.team__row {
+		display: flex;
+	}
+	.team__content {
+		margin: 0 30px 0 100px;
+	}
+	.team__content__text {
+		margin: 0 0 35px 0;
+		padding: 0 140px 0 0;
+	}
+	.team__content__text-top {
+		margin: 0 0 25px 0;
+		font-family: "MyriadPro-It", sans-serif;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.team__content__text-bot {
+		color: #595959;
+		font-family: "MyriadPro-Regular", sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.team__content__row {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.team__content__column {
+		margin: 0 0 30px 0;
+	}
+	.team__content__column-img {
+		margin: 0 5px 20px 0;
+	}
+	.team__content__column-text {
+		text-align: center;
+		font-size: 16px;
+		color: #000;
+	}
+	.team__content__column-text--name {
+		font-family: "MyriadPro-Semibold", sans-serif;
+		line-height: 20px;
+	}
+	.team__content__column-text--position {
+		font-family: "MyriadPro-It", sans-serif;
 	}
 /*===========*/
 
@@ -495,6 +555,19 @@
 	.services__row-content--small {
 		flex: 0 1 30%;
 	}
+/*===========*/
+
+/*TEAM*/
+	.team__content__text {
+		padding: 0;
+	}
+		.team__content {
+		margin: 0 20px 0 50px;
+	}
+	.team__content__column:last-child {
+		margin: 0;
+	}
+	
 /*===========*/
 
 }
@@ -525,6 +598,18 @@
 	}
 	.services__column-item {
 	    padding: 0 5px;
+	}
+/*===========*/
+
+/*TEAM*/
+	.team__body {
+		padding: 50px 0 10px 0;
+	}
+	.team__content {
+		margin: 0 30px 0 50px;
+	}
+	.team__content__column:nth-child(3) {
+		margin: 0;
 	}
 /*===========*/
 
@@ -649,8 +734,51 @@
 /*===========*/
 
 /*SERVICES*/
+	.services__column {
+		max-width: 500px;
+		margin: 0 0 50px 0;
+	}
 	.services__body {
 	    padding: 20px 0 30px 0;
+	}
+	.services__column:nth-child(3) {
+		margin: 0px 0 50px 0;
+	}
+	.services__column-item {
+		padding: 0;
+	}
+	.services__column-item--title {
+		margin: 0 0 20px 0;
+	}
+/*===========*/
+
+/*TEAM*/
+	.team__row {
+		flex-direction: column;
+	}
+	.team__title {
+		margin: 0 0 15px 0;
+	}
+	.team__body {
+		padding: 30px 0;
+	}
+	.team__content__column {
+		flex: 0 1 40%;
+	}
+	.team__content__column-img img {
+		width: 100%;
+	}
+	.team__content__row {
+		justify-content: space-around;
+	}
+	.team__content {
+	 	margin: 0;
+	}
+	.team__content__text {
+		margin: 0 10px 20px 10px;
+	}
+	.team__content__column-img {
+		margin: 0 0px 10px 0;
 	}
 /*===========*/
 
@@ -687,6 +815,12 @@
 	}
 	.header__menu {
 	    padding: 0 0 0 5px;
+	}
+/*===========*/
+
+/*SERVICES*/
+	.services__row {
+		margin: 0 10px;
 	}
 /*===========*/
 
