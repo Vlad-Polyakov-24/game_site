@@ -26,4 +26,15 @@ $(document).ready(function() {
 	$('.tabs__item:first').click();
 /*=========*/
 
+/*SLICK-SLIDER*/
+	$('.testimonials__row').slick({
+			arrows:false,
+			dots:true,
+			slidesToShow:1,
+			autoplay:false,
+			speed:1000,
+			autoplaySpeed:10000,
+		});
+/*=========*/
+
 });
