@@ -879,6 +879,12 @@
 	}
 /*===========*/
 
+/*TESTIMONIALS*/
+	.testimonials__body {
+		padding: 30px 0;
+	}
+/*===========*/
+
 }
 
 @media (max-width: 650px) {
@@ -918,6 +924,22 @@
 /*SERVICES*/
 	.services__row {
 		margin: 0 10px;
+	}
+/*===========*/
+
+}
+
+@media (max-width: 500px) {
+
+/*TESTIMONIALS*/
+	.testimonials__row__item {
+		flex-direction: column-reverse;
+	}
+	.testimonials__column__image-body {
+		margin: 0 0 20px 0;
+	}
+	.slick-list {
+		margin: 0 0 20px 0;
 	}
 /*===========*/
 
