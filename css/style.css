@@ -644,6 +644,88 @@
 	/*===========*/
 /*===========*/
 
+/*BLOGS*/
+	.blogs {
+	}
+	.blogs__body {
+		background-color: #fff;
+		padding: 50px 0 30px 0;
+	}
+	.blogs__row {
+		display: flex;
+	}
+	.blogs__column {
+		flex: 0 1 25%;
+	}
+	.blogs__column-right {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex: 0 1 75%;
+	}
+	.blogs__tabs__nav {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.blogs__tabs {
+		display: flex;
+		flex-direction: column;
+		margin: 0 10px 0 0;
+	}
+	.blogs__tabs__item {
+		font-size: 18px;
+		font-family: "MyriadPro-Regular", sans-serif;
+		color: #000;
+		line-height: 20px;
+		margin: 0 0 20px 0;
+		transition: 0.3s all ease 0s;
+	}
+	.blogs__column__body {
+		display: none;
+	}
+	.blogs__column__body-active {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.blogs__column__body-item {
+		flex: 0 1 26%;
+		min-width: 200px;
+		padding: 10px 5px;
+	}
+	.blogs__column__body-item--image {
+		margin: 0 0 15px 0;
+	}
+	.blogs__column__body-item--image img {
+		width: 100%;
+	}
+	.blogs__column__body-item--date {
+		color: #ffc600;
+		font-size: 18px;
+		font-family: "MyriadPro-Regular", sans-serif;
+		line-height: 20px;
+		margin: 0 0 10px 0;
+	}
+	.blogs__column__body-item--title {
+		font-family: "MyriadPro-Bold", sans-serif;
+		font-size: 15px;
+		color: #000;
+		line-height: 20px;
+		margin: 0 0 5px 0;
+	}
+	.blogs__column__body-item--description {
+		font-family: "MyriadPro-It", sans-serif;
+		font-size: 14px;
+		color: #000;
+		line-height: 20px;
+	}
+	.blogs__tabs__item-active {
+		color: #ffc600;
+	}
+	
+/*===========*/
+
 @media (max-width: 1100px) {
 
 /*SERVICES*/
@@ -885,6 +967,37 @@
 	}
 /*===========*/
 
+/*BLOGS*/
+	.blogs__body {
+		padding: 20px 0;
+	}
+	.blogs__row {
+		flex-direction: column;
+	}
+	.blogs__column {
+		margin: 0 0 15px 0;
+	}
+	.blogs__column-right {
+		margin: 0;
+	}
+	.blogs__tabs {
+		flex-direction: row;
+		margin: 0 10px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.blogs__tabs__item {
+		min-width: 100px;
+		margin: 5px;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.blogs__tabs__item-active {
+		color: #fff;
+		background: #ffc600;
+	}
+/*===========*/
+
 }
 
 @media (max-width: 650px) {
@@ -981,6 +1094,18 @@
 	}
 	.about__body {
 		padding: 10px 10px 30px;
+	}
+/*===========*/
+
+/*BLOGS*/
+	.blogs__tabs__nav {
+		justify-content: center;
+		text-align: center;
+	}
+	.blogs__tabs {
+		flex-direction: column;
+		margin: 0;
+		align-items: center;
 	}
 /*===========*/
 
