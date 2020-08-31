@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 /*IBG*/
 	function ibg(){
 
@@ -12,7 +13,7 @@ $(document).ready(function() {
 	ibg();
 /*=========*/
 
-/*TAB*/
+/*TABS*/
 	/*TAB-FEATURED*/
 		$('.tabs__item').click(function(e) {
 			e.preventDefault();
