@@ -185,6 +185,7 @@
 	.about__body {
 		background-color: #fff;
 		padding: 40px 10px 60px;
+		box-shadow: #000 0px 15px 15px 5px;
 	}
 	.about__row {
 		display: flex;
@@ -284,6 +285,7 @@
 	.featured__body {
 		background-color: #fff;
 		padding: 0 0 50px 0px;
+		box-shadow: #000 0px 25px 15px 5px;
 	}
 	.tabs {}
 	.tabs__items {
@@ -376,6 +378,7 @@
 	.strategic__body {
 		background-color: #fff;
 		padding: 0 0 50px 0;
+		box-shadow: #000 0px 25px 15px 5px;
 	}
 	.strategic__text {
 		font-size: 16px;
@@ -442,6 +445,7 @@
 		background: url(../img/services/bg_n.png) 50%/cover no-repeat;
 		position: relative;
 		padding: 50px 0 40px 0;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .5) inset;
 
 	}
 	.services__body-overlay {
@@ -498,6 +502,7 @@
 	.team__body {
 		background-color: #fff;
 		padding: 50px 0;
+		box-shadow: #000 0px 0px 15px 5px;
 	}
 	.team__row {
 		display: flex;
@@ -551,6 +556,7 @@
 	.testimonials__body {
 		background-color: #000;
 		padding: 50px 0;
+		box-shadow: #000 0px 15px 15px 1px;
 	}
 	.testimonials__row {
 		max-width: 900px;
@@ -634,11 +640,12 @@
 			font-size: 0;
 			width: 10px;
 			height: 10px;
-			background-color: #fff;
+			background-color: transparent;
 			border-radius: 50%;
+			border: 1px solid #fff;
 		}
 		.testimonials__row .slick-dots li.slick-active button{
-			background-color: transparent;
+			background-color: #fff;
 			border: 1px solid #fff;
 		}
 	/*===========*/
@@ -650,6 +657,7 @@
 	.blogs__body {
 		background-color: #fff;
 		padding: 50px 0 30px 0;
+		box-shadow: #000 0px 15px 15px 1px;
 	}
 	.blogs__row {
 		display: flex;
@@ -729,6 +737,7 @@
 	.footer {}
 	.footer__body {
 		background-color: #2046b3;
+		box-shadow: #000 0px 15px 15px 1px;
 	}
 	.footer__row {
 		display: flex;
@@ -898,6 +907,11 @@
 	}
 /*===========*/
 
+.sticky {
+	top: 0;
+	position: sticky;
+}
+
 @media (max-width: 1100px) {
 
 /*SERVICES*/
@@ -928,9 +942,6 @@
 /*STRATEGIC*/
 	.strategic__column__body {
 		margin: 0 10px;
-	}
-	.strategic__column-img {
-		margin: 0 0 0 10px;
 	}
 	.column-img--left {
 		margin: 0 10px 0 0;
