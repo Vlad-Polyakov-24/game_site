@@ -95,7 +95,7 @@
 	}
 	.section__title-item {
 		font-size: 40px;
-		font-family: "MyriadPro-Semibold", sans-serif;
+		font-family: 'MyriadPro-Semibold', sans-serif;
 		color: #000;
 		margin: 0 0 0 80px;
 	}
@@ -125,14 +125,14 @@
 	}
 	.sublime__head__item-title {
 		font-size: 150px;
-		font-family: "MyriadPro-Bold", sans-serif;
+		font-family: 'MyriadPro-Bold', sans-serif;
 		color: #fff;
 		text-align: left;
 		letter-spacing: -2px;
 	}
 	.sublime__head__item-subtitle {
 		font-size: 18px;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 		color: #fff;
 		line-height: 22px;
 		text-align: left;
@@ -145,7 +145,7 @@
 	}
 	.sublime__bottom__title {
 		font-size: 60px;
-		font-family: "MyriadPro-Bold", sans-serif;
+		font-family: 'MyriadPro-Bold', sans-serif;
 		color: #fff;
 		font-weight: bold;
 		padding: 70px 0 0 45px;
@@ -166,7 +166,7 @@
 	}
 	.header__menu-link {
 		font-size: 20px;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 		color: #ffc600;
 		padding: 0 0 5px 0;
 		border-bottom: 2px solid transparent;
@@ -208,13 +208,13 @@
 	.about__item-head {}
 	.about__item-head--title {
 		font-size: 30px;
-		font-family: "MyriadPro-Semibold", sans-serif;
+		font-family: 'MyriadPro-Semibold', sans-serif;
 		color: #717171;
 		margin: 0 0 -15px 0;
 	}
 	.about__item-head--subtitle {
 		font-size: 80px;
-		font-family: "MyriadPro-Semibold", sans-serif;
+		font-family: 'MyriadPro-Semibold', sans-serif;
 		color: #000;
 		/*position: relative;*/
 	}
@@ -228,7 +228,7 @@
 	}*/
 	.about__item-head--text {
 		font-size: 16px;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 		color: #595959;
 		line-height: 20px;
 	}
@@ -260,14 +260,14 @@
 	.about__item-bot--title {
 		text-align: center;
 		font-size: 18px;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 		color: #000;
 		font-weight: 600;
 		margin: 0 0 15px 0;
 	}
 	.about__item-bot--text {
 		font-size: 14px;
-		font-family: "MyriadPro-It", sans-serif;
+		font-family: 'MyriadPro-It', sans-serif;
 		color: #000;
 		line-height: 20px;
 		text-align: center;
@@ -293,7 +293,7 @@
 	}
 	.tabs__item {
 		font-size: 15px;
-		font-family: "MyriadPro-Semibold", sans-serif;
+		font-family: 'MyriadPro-Semibold', sans-serif;
 		color: #101010;
 		position: relative;
 		margin: 0 10px 0 0;
@@ -369,7 +369,7 @@
 		font-size: 20px;
 		color: #fff;
 		text-transform: uppercase;
-		font-family: "MyriadPro-Semibold", sans-serif;
+		font-family: 'MyriadPro-Semibold', sans-serif;
 	}
 /*===========*/
 
@@ -387,13 +387,13 @@
 	.strategic__text-top {
 		margin: 0 0 20px 0;
 		color: #000;
-		font-family: "MyriadPro-It", sans-serif;
+		font-family: 'MyriadPro-It', sans-serif;
 		line-height: 20px;
 	}
 	.strategic__text-bot {
 		line-height: 20px;
 		color: #595959;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 	}
 	.strategic__content {
 		max-width: 900px;
@@ -420,20 +420,20 @@
 	}
 	.strategic__column__body-title {
 		font-size: 50px;
-		font-family: "MyriadPro-Semibold", sans-serif;
+		font-family: 'MyriadPro-Semibold', sans-serif;
 		color: #1d1d1d;
 		margin: 0 0 15px 0;
 	}
 	.strategic__column__body-text--top {
 		font-size: 16px;
-		font-family: "MyriadPro-It", sans-serif;
+		font-family: 'MyriadPro-It', sans-serif;
 		color: #000;
 		margin: 0 0 15px 0;
 		line-height: 20px;
 	}
 	.strategic__column__body-text--bot {
 		font-size: 16px;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 		color: #000;
 		line-height: 20px;
 	}
@@ -482,13 +482,13 @@
 	.services__column-item {}
 	.services__column-item--title {
 		font-size: 19px;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 		color: #fff;
 		margin: 0 0 30px 0;
 	}
 	.services__column-item--text {
 		font-size: 15px;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 		color: #fff;
 		line-height: 20px;
 	}
@@ -516,13 +516,13 @@
 	}
 	.team__content__text-top {
 		margin: 0 0 25px 0;
-		font-family: "MyriadPro-It", sans-serif;
+		font-family: 'MyriadPro-It', sans-serif;
 		font-size: 16px;
 		line-height: 20px;
 	}
 	.team__content__text-bot {
 		color: #595959;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 		font-size: 14px;
 		line-height: 20px;
 	}
@@ -543,11 +543,11 @@
 		color: #000;
 	}
 	.team__content__column-text--name {
-		font-family: "MyriadPro-Semibold", sans-serif;
+		font-family: 'MyriadPro-Semibold', sans-serif;
 		line-height: 20px;
 	}
 	.team__content__column-text--position {
-		font-family: "MyriadPro-It", sans-serif;
+		font-family: 'MyriadPro-It', sans-serif;
 	}
 /*===========*/
 
@@ -578,14 +578,14 @@
 		color: #fff;
 		font-size: 16px;
 		line-height: 20px;
-		font-family: "MyriadPro-It", sans-serif;
+		font-family: 'MyriadPro-It', sans-serif;
 		margin: 0 0 20px 0;
 	}
 	.testimonials__column__content-bot {
 		color: #fff;
 		font-size: 14px;
 		line-height: 20px;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 	}
 	.testimonials__column__image {
 		flex: 0 1 30%;
@@ -608,7 +608,7 @@
 	}
 	.testimonials__column__image-text--name {
 		color: #fff;
-		font-family: "MyriadPro-Semibold", sans-serif;
+		font-family: 'MyriadPro-Semibold', sans-serif;
 		font-size: 16px;
 		line-height: 20px;
 	}
@@ -616,7 +616,7 @@
 		color: #fff;
 		font-size: 16px;
 		line-height: 20px;
-		font-family: "MyriadPro-It", sans-serif;
+		font-family: 'MyriadPro-It', sans-serif;
 	}
 	/*SLIDER*/
 		.slick-list {
@@ -682,7 +682,7 @@
 	}
 	.blogs__tabs__item {
 		font-size: 18px;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 		color: #000;
 		line-height: 20px;
 		margin: 0 0 20px 0;
@@ -711,19 +711,19 @@
 	.blogs__column__body-item--date {
 		color: #ffc600;
 		font-size: 18px;
-		font-family: "MyriadPro-Regular", sans-serif;
+		font-family: 'MyriadPro-Regular', sans-serif;
 		line-height: 20px;
 		margin: 0 0 10px 0;
 	}
 	.blogs__column__body-item--title {
-		font-family: "MyriadPro-Bold", sans-serif;
+		font-family: 'MyriadPro-Bold', sans-serif;
 		font-size: 15px;
 		color: #000;
 		line-height: 20px;
 		margin: 0 0 5px 0;
 	}
 	.blogs__column__body-item--description {
-		font-family: "MyriadPro-It", sans-serif;
+		font-family: 'MyriadPro-It', sans-serif;
 		font-size: 14px;
 		color: #000;
 		line-height: 20px;
@@ -765,7 +765,7 @@
 		justify-content: center;
 		align-items: center;
 		font-size: 15px;
-		font-family: "MyriadPro-Bold", sans-serif;
+		font-family: 'MyriadPro-Bold', sans-serif;
 	}
 	.footer__column__content {
 		flex: 0 1 60%;
