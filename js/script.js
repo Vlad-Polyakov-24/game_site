@@ -54,4 +54,15 @@ $(document).ready(function() {
 		});
 /*=========*/
 
+/*SCROLL-UP*/
+	jQuery(window).scroll(function () {
+		if(jQuery(window).scrollTop() > jQuery(window).height() / 0.4){
+			jQuery('.scroll-top').toggleClass('showscroll-top', true);
+		}
+		else { 
+			jQuery('.scroll-top').removeClass('showscroll-top');
+		}
+	});
+/*=========*/
+
 });

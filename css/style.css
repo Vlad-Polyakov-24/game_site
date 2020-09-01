@@ -907,10 +907,38 @@
 	}
 /*===========*/
 
-.sticky {
-	top: 0;
-	position: sticky;
-}
+/*SCROLL-UP*/
+	.scroll-top {
+		background: #2896d6;
+		bottom:20px;
+		height: 40px;
+		width: 40px;
+		position: fixed;
+		border-radius: 4px;
+		right: 20px;
+		text-align: center;
+		overflow: hidden;
+		z-index: 100;
+		opacity: 0;
+		transition: all 0.5s ease-in-out;
+		cursor: pointer;
+	}
+	.scroll-top span{ 
+		margin-top: 12px;
+		color: #FFF;
+	}
+	.scroll-top:hover {
+		background-color: #ffc600;
+		border-radius: 100%;
+	}
+	.scroll-top:active {
+		background-color:#856700;
+	}
+	.showscroll-top {
+		font-size: 14px;
+		opacity: 0.6;
+	}
+/*===========*/
 
 @media (max-width: 1100px) {
 
@@ -1248,6 +1276,15 @@
 	}
 /*===========*/
 
+/*SCROLL-UP*/
+	.scroll-top {
+		bottom: 0;
+		top: 10px;
+	}
+	.scroll-top:hover {
+		background-color: #2896d6;
+		border-radius: 3px;
+	}
 }
 
 @media (max-width: 650px) {
@@ -1266,7 +1303,6 @@
 @media (max-width: 599px) {
 
 /*SUBLIME*/
-
 	.sublime__head__item-title {
 	    font-size: 120px;
 	}
